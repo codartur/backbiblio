@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 CORS(app)
 
-# Load data from JSON files
+# Carrega os dados a partir dos arquivos JSON
 def load_data(filename):
     with open(filename, 'r') as f:
         return json.load(f)
@@ -34,9 +34,21 @@ def handle_rentals():
         return jsonify(rentals)
     elif request.method == 'POST':
         rental = request.json
+        user_id = rental['user']
+        book_titles = rental['books']
+
+        # Muda status do livro para false
+        for book in books:
+            if book['title'] in book_titles and book['status']:
+                book['status'] = False
+
+        # Salva as alterações
+        save_data('books.json', books)
+
         rentals.append(rental)
         save_data('rentals.json', rentals)
         return jsonify(rental), 201
+
 
 if __name__ == '__main__':
     import os

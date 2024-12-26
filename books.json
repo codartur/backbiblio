@@ -1,4 +1,122 @@
 [
-  { "id": 1, "title": "Livro A" },
-  { "id": 2, "title": "Livro B" }
+    {
+        "id": 1,
+        "title": "1984",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/819js3EQwbL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 2,
+        "title": "A Divina Comedia",
+        "status": false,
+        "imageUrl": "https://m.media-amazon.com/images/I/91zj0WZtIYL.jpg"
+    },
+    {
+        "id": 3,
+        "title": "A Metamorfose",
+        "status": false,
+        "imageUrl": "https://http2.mlstatic.com/D_NQ_NP_964155-MLU50500517976_062022-O.webp"
+    },
+    {
+        "id": 4,
+        "title": "A Revolucao dos Bichos",
+        "status": false,
+        "imageUrl": "https://m.media-amazon.com/images/I/91BsZhxCRjL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Admiravel Mundo Novo",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/61hOp6UFvCL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 6,
+        "title": "As Aventuras de Huckleberry Finn",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/91mGGv9JB5S._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Cem Anos de Solidao",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/81SQPrWU7SL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Crime e Castigo",
+        "status": true,
+        "imageUrl": "https://www.lpm.com.br/livros/imagens/crime_e_castigo_9788525416476_hd.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Dom Quixote",
+        "status": true,
+        "imageUrl": "https://www.lpm.com.br/livros/Imagens/dom_quixote_hq_9788525433633_g.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Guerra e Paz",
+        "status": true,
+        "imageUrl": "https://images.tcdn.com.br/img/img_prod/1271663/guerra_e_paz_liev_tolstoi_capa_dura_399_1_8129cc0795b734d8ef3f94df2f6f6f6a.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Jane Eyre",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/91Jm5zoM0EL.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Moby Dick",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/71pDLEFif3L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 13,
+        "title": "O Apanhador no Campo de Centeio",
+        "status": true,
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/pt/5/5d/Capa_The_Catcher_in_the_Rye.jpg"
+    },
+    {
+        "id": 14,
+        "title": "O Conde de Monte Cristo",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/81ZswN9PVPL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 15,
+        "title": "O Grande Gatsby",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/81Ph4QRq1gL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 16,
+        "title": "O Morro dos Ventos Uivantes",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/71lqmkoeosL.jpg"
+    },
+    {
+        "id": 17,
+        "title": "O Processo",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/81O8mKD8U4L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 18,
+        "title": "O Retrato de Dorian Gray",
+        "status": true,
+        "imageUrl": "https://darkside.vtexassets.com/arquivos/ids/176888/o-retrato-de-dorian-gray.png?v=637655004354600000"
+    },
+    {
+        "id": 19,
+        "title": "Orgulho e Preconceito",
+        "status": true,
+        "imageUrl": "https://m.media-amazon.com/images/I/71Xta4Nf7uL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Os Miseraveis",
+        "status": true,
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvAgfPJwJDJMJYL4XpnA7DeQjaJ4Ddk94ww&s"
+    }
 ]
